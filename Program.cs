@@ -30,7 +30,7 @@ namespace ConsoleApp4
             }
         }
 
-        static string[] meal = new string[] { "Breakfast", "Meal", "Night Meal" };
+        static string[] meal = new string[] { "Breakfast", "Lunch", "Dinner" };
 
         static List<List<Food>> foods = new List<List<Food>>();
         static int days = 0;
