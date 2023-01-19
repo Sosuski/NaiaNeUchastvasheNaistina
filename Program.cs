@@ -30,7 +30,7 @@ namespace ConsoleApp4
             }
         }
 
-        static string[] meal = new string[] { "Breakfast", "Meal", "Night Meal" };
+        static string[] meal = new string[] { "Breakfast", "Lunch", "Dinner" };
 
         static List<List<Food>> foods = new List<List<Food>>();
         static int days = 0;
@@ -63,7 +63,7 @@ namespace ConsoleApp4
 
                     name = Console.ReadLine();
 
-                    Console.WriteLine("How much calories it was?");
+                    Console.WriteLine("How many calories it was?");
                     int calories = int.Parse(Console.ReadLine());
 
                     q.Add(new Food(name, calories));
@@ -77,7 +77,7 @@ namespace ConsoleApp4
 
                 if(minCalorie < totalCalories && totalCalories < maxCalorie)
                 {
-                    Console.WriteLine("You did great !");
+                    Console.WriteLine("Great work !");
                 } else if(totalCalories < minCalorie)
                 {
                     Console.WriteLine($"You need to eat {minCalorie - totalCalories} more calories");
@@ -88,7 +88,7 @@ namespace ConsoleApp4
                 foods.Add(q);
 
                 days++;
-                
+                Console.WriteLine("Ivelin");
             }
         }
     }
