@@ -30,7 +30,7 @@ namespace ConsoleApp4
             }
         }
 
-        static string[] meal = new string[] { "Breakfast", "Lunch", "Dinner" };
+        static string[] meal = new string[] { "Breakfast", "Meal", "Night Meal" };
 
         static List<List<Food>> foods = new List<List<Food>>();
         static int days = 0;
@@ -88,7 +88,7 @@ namespace ConsoleApp4
                 foods.Add(q);
 
                 days++;
-                Console.WriteLine("Ivelin e gei");
+                
             }
         }
     }
