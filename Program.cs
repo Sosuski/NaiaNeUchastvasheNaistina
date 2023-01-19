@@ -88,6 +88,7 @@ namespace ConsoleApp4
                 foods.Add(q);
 
                 days++;
+                Console.WriteLine("Ivelin e gei");
             }
         }
     }
